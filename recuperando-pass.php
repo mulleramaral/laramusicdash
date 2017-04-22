@@ -20,34 +20,38 @@
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="img/favicon-laramusic.png">
 
-    <title>Login Dashboard - LaraMusic</title>
+    <title>Recuperar Senha - LaraMusic</title>
 </head>
 <body>
-    <div class="login">
-        <div class="login-header">
-            <img src="img/laramusic-branca.png" alt="LaraMusic" class="logo-login">
+<div class="login">
+    <div class="login-header">
+        <img src="img/laramusic-branca.png" alt="LaraMusic" class="logo-login">
+    </div>
+
+    <form action="painel.php" method="post" class="form login">
+        <div class="form-group">
+            <input type="text" name="email" placeholder="Informe o seu e-mail" class="form-control">
         </div>
 
-        <form action="painel.php" method="post" class="form login">
-            <div class="form-group">
-                <input type="text" name="email" placeholder="Informe o seu e-mail" class="form-control">
-            </div>
+        <div class="form-group">
+            <input type="password" name="password" placeholder="Informe a sua senha" class="form-control">
+        </div>
 
-            <div class="form-group">
-                <input type="password" name="password" placeholder="Informe a sua senha" class="form-control">
-            </div>
+        <div class="form-group">
+            <input type="password" name="password" placeholder="Informe a sua senha" class="form-control">
+        </div>
 
-            <div class="form-group">
-                <input type="submit" name="enviar" value="Entrar" class="btn btn-login">
-            </div>
+        <div class="form-group">
+            <input type="submit" name="enviar" value="Recuperar" class="btn btn-login">
+        </div>
 
-            <div class="form-group text-right">
-                <a href="recuperar.php" class="recuperar">
-                    Recuperar senha
-                </a>
-            </div>
+        <div class="form-group text-right">
+            <a href="index.php" class="recuperar">
+                Entrar
+            </a>
+        </div>
 
-        </form>
-    </div>
+    </form>
+</div>
 </body>
 </html>

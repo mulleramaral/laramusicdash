@@ -53,7 +53,7 @@ form.form-search{
     margin: 10px;
 }
 
-/* Relatórios */
+/* RelatÃƒÂ³rios */
 div.relatorios{}
 ul.relatorios{
     float: left;
@@ -99,4 +99,46 @@ p.footer{
     margin: 5px;
     color: #fff;
     font-weight: bold;
+}
+
+/* Login */
+div.login{
+    max-width: 500px;
+    margin: 120px auto;
+    background: #ECECEC;
+    /* padding: 20px 10px; */
+    border: 1px solid #FC503B;
+    border-radius: 10px;
+}
+form.login{
+    padding: 10px;
+    background: #D4BFBC;
+    border-radius: 0px 0px 10px 10px;
+}
+.login-header{
+    text-align: center;
+    padding: 10px;
+    background: #FC503B;
+    border-radius: 10px 10px 0px 0px;
+}
+img.logo-login{
+    max-width:150px;}
+
+form.login input{
+    border-radius: 0px;
+    /* padding: 14px 10px; */
+    height: 50px;
+    color: #FC503B;
+}
+
+.btn-login{
+    background: #fC503B;
+    width: 100%;
+    color: #FFF !important;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.recuperar{
+    color: #fC503B;
 }
