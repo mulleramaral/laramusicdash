@@ -1,0 +1,102 @@
+.clear{
+    clear: both;}
+
+.logo{
+    width: 100%;
+    margin-top: 24px;
+}
+.menu{
+    background-color: #fC503b;
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu {}
+ul.menu{
+    list-style: none;
+    width: 100%;
+    margin: 0px;
+    padding: 12px;
+}
+ul.menu li{
+    /* display: inline; */
+    text-align: center;
+}
+ul.menu li a{}
+ul.menu li h1{
+    font-size: 18px;
+    margin: 4px;
+    color: #fff;
+    font-weight: bold;
+}
+img.img-menu{
+    max-width:100px;
+}
+
+a:hover{
+    text-decoration: none;}
+
+/* Actions */
+.actions{
+    background: #ef786a;
+}
+a.add{
+    background: #fc503b;
+    padding: 12px;
+    float: left;
+    margin: 5px;
+    color: #fff;
+    border-radius: 4px;
+}
+form.form-search{
+    float: left;
+    margin: 10px;
+}
+
+/* Relatórios */
+div.relatorios{}
+ul.relatorios{
+    float: left;
+    width: 100%;
+    list-style: none;
+    margin: 40px 0px;
+}
+ul.relatorios a{
+    background: #fc503b;
+    margin: 14px 0px;
+    float: left;
+    width: 100%;
+    padding: 14px;
+}
+ul.relatorios h1{
+    color: #fff;
+    font-size: 16px;
+}
+
+.edit{
+    background: #d54d49;
+    padding: 8px;
+    color: #fff;
+    border-radius: 4px;
+    margin: 4px;
+}
+.delete{
+    background: #fc503b;
+    padding: 8px 10px;
+    color: #fff;
+    margin: 4px;
+    border-radius: 4px;
+}
+
+/* Forms */
+h1.title{
+    color: #d54d49;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+p.footer{
+    margin: 5px;
+    color: #fff;
+    font-weight: bold;
+}
